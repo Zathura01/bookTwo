@@ -1,0 +1,93 @@
+/* FixedInterestRateBond.css */
+
+.fib-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px 40px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  background-color: #fafafa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 18px 25px;
+  align-items: center;
+
+  /* Important: prevent input overflow */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.fib-form * {
+  /* make all elements inside the form use border-box */
+  box-sizing: border-box;
+}
+
+.fib-row {
+  display: contents;
+}
+
+.fib-form label {
+  justify-self: end;
+  font-weight: 600;
+  color: #333;
+  padding-right: 12px;
+  font-size: 15px;
+  white-space: nowrap; /* avoid label wrapping */
+}
+
+.fib-input,
+.fib-select {
+  max-width: 100%; /* prevent exceeding container */
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  outline-offset: 2px;
+}
+
+.fib-input:focus,
+.fib-select:focus {
+  border-color: #004a99;
+  box-shadow: 0 0 5px #004a99aa;
+}
+
+.fib-actions {
+  grid-column: 1 / -1;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.fib-button {
+  background-color: #004a99;
+  color: white;
+  font-weight: 700;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fib-button:hover {
+  background-color: #003366;
+}
+
+@media (max-width: 480px) {
+  .fib-form {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .fib-form label {
+    justify-self: start;
+    padding-bottom: 6px;
+    white-space: normal;
+  }
+  .fib-actions {
+    text-align: center;
+  }
+}

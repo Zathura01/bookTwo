@@ -1,0 +1,46 @@
+.fd-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  background: #f9f9f9;
+}
+
+.fd-card {
+  background: #fff;
+  border: 2px solid #ccc;
+  border-left: 5px solid #3f51b5;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.fd-card h3 {
+  margin-top: 0;
+  color: #333;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.fd-entry {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.fd-entry span {
+  font-weight: 500;
+}
+
+.fd-entry strong {
+  font-weight: 600;
+  color: #222;
+}
+
+.fd-entry.profit strong {
+  color: #2e7d32;
+}

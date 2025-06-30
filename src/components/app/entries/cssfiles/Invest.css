@@ -1,0 +1,40 @@
+/* InvestEntry.css */
+
+.invest-container {
+  max-width: 480px;
+  margin: 20px auto;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.invest-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.invest-select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  margin-bottom: 24px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.invest-select:focus {
+  border-color: #0078d7;
+}
+
+.invest-content {
+  min-height: 150px; /* Space for modal/component */
+}

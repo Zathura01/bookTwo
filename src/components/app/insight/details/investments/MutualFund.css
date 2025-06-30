@@ -1,0 +1,48 @@
+/* MutualFund.css */
+
+.mf-container {
+  padding: 1rem;
+}
+
+.mf-toggle {
+  margin-bottom: 1rem;
+}
+
+.mf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.mf-card {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.mf-card p {
+  margin: 0.5rem 0;
+}
+
+.mf-card input {
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mf-card button {
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.mf-card button:hover {
+  background-color: #145ea8;
+}

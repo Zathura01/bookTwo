@@ -1,0 +1,70 @@
+.gold-cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.gold-card {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-left: 6px solid #FFD700; /* gold highlight */
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gold-card:hover {
+  transform: translateY(-5px);
+}
+
+.gold-card-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.6rem;
+}
+
+.gold-card-body p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.gold-date {
+  font-weight: bold;
+}
+
+/* ////////////////// */
+
+.gold {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.leftGold{
+  
+}
+
+.rightGold{
+display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;  
+}
+
+
+.gold-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}

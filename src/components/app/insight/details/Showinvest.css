@@ -1,0 +1,55 @@
+.investment-tabs {
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tab-buttons {
+  margin-bottom: 1rem;
+}
+
+.tab-buttons button {
+  padding: 8px 16px;
+  margin-right: 6px;
+  background: #f0f0f0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab-buttons .active {
+  background: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+.selectors {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.selectors label {
+  font-weight: bold;
+}
+
+.investment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.investment-table th,
+.investment-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.investment-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.investment-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,86 @@
+.gold-form {
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 25px 35px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 18px 20px;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.gold-form label {
+  font-weight: 600;
+  color: #222;
+  justify-self: end;
+  white-space: nowrap;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.gold-form input[type="number"],
+.gold-form input[type="date"],
+.gold-form input[type="text"],
+.gold-form select {
+  width: 100%;
+  padding: 9px 12px;
+  font-size: 16px;
+  border: 1.5px solid #bbb;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.gold-form input[type="number"]:focus,
+.gold-form input[type="date"]:focus,
+.gold-form input[type="text"]:focus,
+.gold-form select:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 5px #0066ccaa;
+}
+
+.gold-form-actions {
+  grid-column: 1 / -1;
+  text-align: right;
+  margin-top: 18px;
+}
+
+.gold-form-actions button {
+  background-color: #0066cc;
+  color: white;
+  font-weight: 700;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gold-form-actions button:hover {
+  background-color: #004a99;
+}
+
+/* Responsive for small screens */
+@media (max-width: 480px) {
+  .gold-form {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .gold-form label {
+    justify-self: start;
+    padding-bottom: 6px;
+    white-space: normal;
+  }
+
+  .gold-form-actions {
+    text-align: center;
+  }
+}

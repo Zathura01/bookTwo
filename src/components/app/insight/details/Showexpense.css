@@ -1,0 +1,60 @@
+.expense-summary-container {
+  padding: 1rem;
+  background: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.summary-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.summary-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.summary-controls label {
+  font-weight: 600;
+  color: #555;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.expense-table th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.expense-table td {
+  background-color: #fff;
+}
+
+.month-name {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.total-cell {
+  font-weight: bold;
+  background-color: #eef6ec;
+}

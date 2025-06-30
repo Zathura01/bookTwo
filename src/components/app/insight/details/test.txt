@@ -1,0 +1,91 @@
+category: "SBI"
+createdAt: "2025-06-28T21:11:31.280Z"
+deposit: 52
+
+['category','createdAt','deposit']
+//////////////////////////////////////
+
+amount: 4
+category: "Food"
+comment: ""
+createdAt: "2025-06-28T21:16:53.777Z"
+date: "2025-06-28T15:46:00.000Z"
+debitedFrom: "SBI"
+subcategory: "Biscuit"
+updatedAt: "2025-06-28T21:16:53.777Z"
+userId: "68605a295d51915bb1a7399f"
+__v: 0
+_id: "68605bc55d51915bb1a739c4"
+
+['amount','category','createdAt','subcategory']
+///////////////////////////////////////
+
+dataFixedDeposit: 
+Array(3)
+0
+: 
+cmt: "first fd"
+createdAt: "2025-06-29T01:38:16.207Z"
+date: "2025-06-29T00:00:00.000Z"
+debit: "AXIS"
+deposit: 40
+interestRate: 2
+updatedAt: "2025-06-29T01:38:16.207Z"
+userId: "68605a295d51915bb1a7399f"
+__v: 0
+_id: "68609908888e745dadc2e404"
+
+['createdAt','deposit','interestRate']
+/////////////////////////////////////////
+
+dataFixedRateBond: 
+Array(1)
+0
+: 
+cmt: "3"
+createdAt: "2025-06-29T06:18:42.053Z"
+date: "2025-06-29T00:48:00.000Z"
+debit: "AXIS"
+deposit: 2
+interestAtStart: 2
+period: 2
+updatedAt: "2025-06-29T06:18:42.053Z"
+userId: "68605a295d51915bb1a7399f"
+__v: 0
+_id: "6860dac2b9cfc9f912692db3"
+
+['createdAt','deposit','period','interestAtStart']
+////////////////////////////////////
+
+dataGold: 
+Array(2)
+0
+: comment: ""
+date: "2025-06-28T00:00:00.000Z"
+debitFrom: "SBI"
+marketSellAmount: 2
+purchaseAmount: 19
+qtyPurchased: 2
+userId: "68605a295d51915bb1a7399f"
+__v: 0
+_id: "68605aab5d51915bb1a739b8"
+
+['marketSellAmount','purchaseAmount','qtyPurchased','date']
+////////////////////////////////////
+
+dataMutualFund: 
+Array(3)
+0: 
+comment: "FIRST MF"
+date: "2025-06-28T20:03:00.000Z"
+debitFrom: "AXIS"
+planType: "LUMPSUM"
+purchaseAmount: 50
+unitCost: 2
+unitsBought: 2
+userId: "68605a295d51915bb1a7399f"
+__v: 0
+_id: "686098100572c6f70ea4b722"
+
+['date','planType','purchaseAmount','unitCost','unitsBought']
+

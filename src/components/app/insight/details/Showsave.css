@@ -1,0 +1,62 @@
+.save-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.save-table thead {
+  background-color: #f0f0f0;
+}
+
+.save-table th,
+.save-table td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.save-table th.month-col {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.save-table th.bank-header {
+  background-color: #d0d0d0;
+  font-weight: bold;
+  color: #333;
+}
+
+.save-table .sub-header th {
+  background-color: #f9f9f9;
+  font-style: italic;
+}
+
+.save-table td.month-name {
+  font-weight: bold;
+  color: #333;
+  background-color: #fafafa;
+}
+
+.save-table td.percent {
+  color: #007b00;
+  font-weight: bold;
+}
+
+.save-table td.percent::after {
+  content: '%';
+}
+
+.save-table tr:hover {
+  background-color: #f3f3f3;
+}
+
+.added {
+  color: #0044cc;
+}
+
+.total {
+  color: #222;
+}

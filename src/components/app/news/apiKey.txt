@@ -1,0 +1,8 @@
+4cab290f2317457ca27697ed745166a5
+
+
+https://newsapi.org/v2/everything?q=apple&from=2025-06-28&to=2025-06-28&sortBy=popularity&apiKey=4cab290f2317457ca27697ed745166a5
+https://newsapi.org/v2/everything?q=bitcoin&apiKey=4cab290f2317457ca27697ed745166a5
+https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=4cab290f2317457ca27697ed745166a5
+
+
